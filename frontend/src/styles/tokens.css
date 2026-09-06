@@ -1,0 +1,29 @@
+/*
+  Palette sampled directly from mahlerfoundation.org:
+  cream background rgb(247,246,242), deep teal rgb(17,51,62),
+  gold accent rgb(251,194,3).
+*/
+:root {
+  --cream:       #F7F6F2;
+  --cream-soft:  #FBFAF7;
+  --paper:       #FFFFFF;
+
+  --ink:         #1F1F1F;
+  --ink-soft:    rgba(31, 31, 31, 0.68);
+  --ink-faint:   rgba(31, 31, 31, 0.42);
+
+  --teal:        #11333E;
+  --teal-dark:   #0B242C;
+  --teal-soft:   rgba(17, 51, 62, 0.08);
+  --teal-line:   rgba(17, 51, 62, 0.16);
+
+  --gold:        #FBC203;
+  --gold-dark:   #C99600;
+  --gold-soft:   rgba(251, 194, 3, 0.16);
+
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans:  "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --pad: clamp(1.25rem, 4.5vw, 4.5rem);
+  --radius: 3px;
+}
